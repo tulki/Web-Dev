@@ -10,14 +10,30 @@
             }
             .headings {
                 color: red;
+                text-align: center;
+            }
+            .li_image {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                width: 25%;
+            }
+            .text {
+                text-align: center;
+            }
+            .image {
+                width: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
         </style>
     </head>
     <body>
     
-        <h1 class = "headings">Travel to Singapore</h1>
+        <h1 class = "headings"> Travel to Singapore </h1>
         
-        <p id = "singapore_description"> 
+        <p id = "singapore_description" class = "text"> 
             <em>Singapore</em> is a highly developed, multicultural city-state in <br> 
             Southeast Asia, located at the southern tip of the <em>Malay <br>
             Peninsula</em>. Known as a <strong>global</strong> financial hub with a bustling port, it <br>
@@ -28,8 +44,44 @@
         </p>
 
         <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Marina_Bay_Sands_20250903_%281%29.jpg/500px-Marina_Bay_Sands_20250903_%281%29.jpg"
-        alt = "The Marina Bay Sands, one of Singapore's two integrated resorts" width = "333">
+        alt = "The Marina Bay Sands, one of Singapore's two integrated resorts" class = "image">
 
-        
+        <h2 class = "headings"> Places to visit in Singapore: </h2>
+        <ul> 
+            <li> 
+                <p class = "text"> Marina Bay <br> With its soaring skyscrapers and gorgeous skyline, the Marina Bay we see today is made up of 38 hectares of reclaimed land. </p>
+                <img src = "https://www.visitsingapore.com/content/dam/visitsingapore/whats-happening/events/1440x600_masthead_card_img_marinabaysands_nogradient.png" 
+                class = "li_image"> 
+            </li>
+            <li> 
+                <p class = "text"> Sentosa Island <br> Endless discovery awaits you with Sentosa's golden beaches, tranquil getaways and thrilling theme parks. </p>
+                <img src = "https://www.visitsingapore.com/content/dam/visitsingapore/neighbourhoods/sentosa/video-fallback_780x440.jpg" 
+                class = "li_image"> 
+            </li>
+            <li> 
+                <p class = "text"> National Museum of Singapore <br> Singapore's oldest museum is home to fascinating and futuristic exhibitions that illuminate our nation's past. </p>
+                <img src = "https://www.visitsingapore.com/content/dam/visitsingapore/neighbourhoods/civic-district/page-image-national-museum-of-singapore_746x560.jpg" 
+                class = "li_image"> 
+            </li>
+        </ul>
+
+        <h2 class = "headings"> Meals to eat in Singapore: </h2>
+        <ul> 
+            <li> 
+                <p class = "text"> Laksa <br> Laksa is one of the ultimate demonstrations of the combination of Chinese and Malay flavors and ingredients all in a single bowl. <br> Noodles, often rice noodles, make up the foundation and starch of a bowl of laksa, followed by a gravy or curry, some pieces of protein, and often some vegetables and herbs. </p>
+                <img src = "https://migrationology.smugmug.com/Singapore-2016/i-hzgNdsc/0/X3/singapore-laksa-X3.jpg" 
+                class = "li_image"> 
+            </li>
+            <li> 
+                <p class = "text"> Bak Kut Teh <br> Literally translated to pork bone tea, bak kut teh is a dish that’s popular throughout Malaysia and Singapore with Chinese origins. <br> Although one would think the pork is cooked in tea, tea is not actually included in the recipe, but according to Wikipedia, it got its name because strong tea is consumed along with the pork soup to wash down the grease. </p>
+                <img src = "https://migrationology.smugmug.com/Singapore-2016/i-3QbdqjS/0/X3/buk-kut-teh-X3.jpg" 
+                class = "li_image"> 
+            </li>
+            <li> 
+                <p class = "text"> Hokkien Mee <br> Along with Char Kway Teow (coming up soon), Hokkien Mee is one of the most popular fried noodle hawker dishes in Singapore. <br> It’s a dish that has roots in China’s Fujian province (which is where the Hokkien people are originally from), that has now been adopted into Malaysia and Singapore. </p>
+                <img src = "https://migrationology.smugmug.com/Singapore-2016/i-xjgK3Pj/0/X3/hokkien-mee-1-X3.jpg" 
+                class = "li_image"> 
+            </li>
+        </ul>
     </body>
 </html>

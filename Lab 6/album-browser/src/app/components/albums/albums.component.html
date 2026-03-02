@@ -1,0 +1,25 @@
+<h1>Albums</h1>
+
+<div *ngIf="isLoading">
+  Loading albums...
+</div>
+
+<div *ngIf="!isLoading && errorMessage">
+  {{ errorMessage }}
+</div>
+
+<div *ngIf="!isLoading && !errorMessage && albums.length === 0">
+  No albums found.
+</div>
+
+<ul *ngIf="!isLoading && !errorMessage && albums.length > 0" class="album-list">
+  <li *ngFor="let album of albums" class="album-item">
+    <div class="album-info" (click)="openAlbum(album)">
+      <span class="album-id">#{{ album.id }}</span>
+      <span class="album-title">{{ album.title }}</span>
+    </div>
+    <button class="delete-btn" (click)="deleteAlbum(album); $event.stopPropagation()">
+      Delete
+    </button>
+  </li>
+</ul>
