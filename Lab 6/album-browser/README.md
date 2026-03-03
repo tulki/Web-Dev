@@ -57,3 +57,24 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+1. Clone the repository
+
+git clone <YOUR_REPO_URL>
+cd lab6/album-browser   # or the folder where AlbumBrowser is located
+
+2. Install dependencies
+
+npm install
+
+3. Run the dev server
+
+npm start
+# or
+ng serve
+
+4. Open the app in a browser
+
+Go to:
+http://localhost:4200
+Now you can navigate between Home, About, Albums, album details and photos inside the app.
