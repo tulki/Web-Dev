@@ -25,14 +25,14 @@
           "name": "Get Category by ID",
           "request": {
             "method": "GET",
-            "url": "{{base_url}}/categories/1/"
+            "url": "{{base_url}}/categories/6/"
           }
         },
         {
           "name": "Get Products by Category",
           "request": {
             "method": "GET",
-            "url": "{{base_url}}/categories/1/products/"
+            "url": "{{base_url}}/categories/6/products/"
           }
         },
         {
@@ -66,14 +66,14 @@
               "mode": "raw",
               "raw": "{\n  \"name\": \"Updated Sports\"\n}"
             },
-            "url": "{{base_url}}/categories/1/"
+            "url": "{{base_url}}/categories/6/"
           }
         },
         {
           "name": "Delete Category",
           "request": {
             "method": "DELETE",
-            "url": "{{base_url}}/categories/1/"
+            "url": "{{base_url}}/categories/6/"
           }
         }
       ]
@@ -92,7 +92,7 @@
           "name": "Get Product by ID",
           "request": {
             "method": "GET",
-            "url": "{{base_url}}/products/1/"
+            "url": "{{base_url}}/products/25/"
           }
         },
         {
@@ -107,7 +107,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Gaming Keyboard\",\n  \"price\": 89.99,\n  \"description\": \"Mechanical keyboard\",\n  \"count\": 9,\n  \"is_active\": true,\n  \"category\": 1\n}"
+              "raw": "{\n  \"name\": \"Gaming Keyboard\",\n  \"price\": 89.99,\n  \"description\": \"Mechanical keyboard\",\n  \"count\": 9,\n  \"is_active\": true,\n  \"category\": 6\n}"
             },
             "url": "{{base_url}}/products/"
           }
@@ -124,16 +124,16 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"name\": \"Updated Keyboard\",\n  \"price\": 95.99,\n  \"description\": \"Updated mechanical keyboard\",\n  \"count\": 7,\n  \"is_active\": true,\n  \"category\": 1\n}"
+              "raw": "{\n  \"name\": \"Updated Keyboard\",\n  \"price\": 95.99,\n  \"description\": \"Updated mechanical keyboard\",\n  \"count\": 7,\n  \"is_active\": true,\n  \"category\": 6\n}"
             },
-            "url": "{{base_url}}/products/1/"
+            "url": "{{base_url}}/products/25/"
           }
         },
         {
           "name": "Delete Product",
           "request": {
             "method": "DELETE",
-            "url": "{{base_url}}/products/1/"
+            "url": "{{base_url}}/products/25/"
           }
         }
       ]
